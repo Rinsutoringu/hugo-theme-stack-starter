@@ -17,8 +17,8 @@ emoji = "🎀"
 
 [sidebar.avatar]
 enabled = true
-local = false
-src = "/icon150.png"
+local = true
+src = "img/icon150.png"
 
 [article]
 headingAnchor = false
