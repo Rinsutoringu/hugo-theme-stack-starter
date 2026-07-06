@@ -1,6 +1,6 @@
 ---
 title: 到处鼓捣
-description: A description of this category
+description: 让我瞅瞅这个美丽的世界！
 image:
 
 # Badge style
