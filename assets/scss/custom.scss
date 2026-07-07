@@ -96,11 +96,19 @@
         border-left-color: #f85149;
         background-color: rgba(248, 81, 73, 0.15);
     }
+
+    .article-content :not(pre) > code {
+        color: #d63200c1;
+        background-color: #515151;
+        padding: 2px 4px;
+        border-radius: var(--tag-border-radius);
+        font-family: var(--code-font-family);
+    }
 }
 
-.article-content code {
-    color: #d63200c1;           /* 默认灰色文字 */
-    background-color: #f0f0f0; /* 默认浅灰背景 */
+.article-content :not(pre) > code {
+    color: #d63200c1;
+    background-color: #f0f0f0;
     padding: 2px 4px;
     border-radius: var(--tag-border-radius);
     font-family: var(--code-font-family);
