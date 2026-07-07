@@ -4,3 +4,20 @@
 .site-name {
     font-size: 2.2rem !important;
 }
+
+/* 缩小 Archives 页面顶部分类块 */
+.article-list--tile {
+    article {
+        width: 15% !important;
+        height: 100% !important;
+
+    }
+
+    .article-title {
+        font-size: 1.4rem;
+    }
+
+    .article-details {
+        padding: 0;
+    }
+}
