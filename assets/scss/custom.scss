@@ -5,21 +5,37 @@
     font-size: 2.2rem !important;
 }
 
-/* 缩小 Archives 页面顶部分类块 */
+/* Archives 页面顶部分类块 - 参考 Steven 博客与 Untitled-1.css */
 .article-list--tile {
     article {
-        width: 15% !important;
-        height: 100% !important;
-
-    }
-
-    .article-title {
-        font-size: 1.4rem;
+        width: 250px !important;
+        height: 80px !important;
+        border-radius: var(--card-border-radius);
+        overflow: hidden;
+        position: relative;
     }
 
     .article-details {
-        padding: 0;
+        line-height: 1.15;
+        -webkit-font-smoothing: antialiased;
+        width: 100% !important;
+        height: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end !important;
+        gap: 15px;
+        padding-top: calc((var(--card-padding)) * 0.6) !important;
+        padding-bottom: calc((var(--card-padding)) * 0.75) !important;
+        padding: 20px;
+        border-radius: var(--card-border-radius);
+        position: relative;
+        z-index: 2;
+        box-sizing: border-box;
     }
+
+    // .article-title {
+    //     font-size: 1.4rem;
+    // }
 }
 
 /* GitHub Alerts 样式 */
